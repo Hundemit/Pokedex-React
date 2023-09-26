@@ -12,7 +12,8 @@ This project is a simple Pokedex app, developed with React. This app allows you 
 
 ## Technologies
 
-- React.js
+- React
+- TypeScript
 - Tailwind CSS
 - Flowbite
 - Headless Ui
