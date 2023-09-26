@@ -26,7 +26,7 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/Pokedex-React.git
+   git clone https://github.com/hundemit/Pokedex-React.git
    ```
 
 2. Navigate to the project directory:
