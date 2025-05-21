@@ -8,18 +8,10 @@ class Footer extends Component {
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="flex justify-center text-teal-600 dark:text-teal-300">
             <a href="https://janhindemit.de/" target="_blank">
-              <img
-                src="https://janhindemit.de/wp-content/themes/PortfolioPage/Assests/pokedex-app/assets/img/JanHindemitLogoHell.svg"
-                alt="JanHindemitLogo"
-                className="dark:hidden block hover:-translate-y-1 duration-200"
-              />
+              <img src="/assets/img/JanHindemitLogoHell.svg" alt="JanHindemitLogo" className="dark:hidden block hover:-translate-y-1 duration-200" />
             </a>
             <a href="https://janhindemit.de/" target="_blank">
-              <img
-                src="https://janhindemit.de/wp-content/themes/PortfolioPage/Assests/pokedex-app/assets/img/JanHindemitLogoDunkel.svg"
-                alt="JanHindemitLogo"
-                className="hidden dark:block hover:-translate-y-1 duration-200"
-              />
+              <img src="/assets/img/JanHindemitLogoDunkel.svg" alt="JanHindemitLogo" className="hidden dark:block hover:-translate-y-1 duration-200" />
             </a>
           </div>
 
@@ -29,16 +21,9 @@ class Footer extends Component {
                 href="https://www.linkedin.com/in/jan-hindemit-637104250/"
                 rel="noreferrer"
                 target="_blank"
-                className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-              >
+                className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
                 <span className="sr-only">LinkedIn</span>
-                <svg
-                  className="w-[20px] h-[20px]"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 15 15"
-                >
+                <svg className="w-[20px] h-[20px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 15 15">
                   <path
                     fillRule="evenodd"
                     d="M7.979 5v1.586a3.5 3.5 0 0 1 3.082-1.574C14.3 5.012 15 7.03 15 9.655V15h-3v-4.738c0-1.13-.229-2.584-1.995-2.584-1.713 0-2.005 1.23-2.005 2.5V15H5.009V5h2.97ZM3 2.487a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"
@@ -50,12 +35,7 @@ class Footer extends Component {
             </li>
 
             <li>
-              <a
-                href="https://www.instagram.com/hindemit.ui/"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-              >
+              <a href="https://www.instagram.com/hindemit.ui/" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
                 <span className="sr-only">Instagram</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -68,12 +48,7 @@ class Footer extends Component {
             </li>
 
             <li>
-              <a
-                href="https://github.com/Hundemit"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-              >
+              <a href="https://github.com/Hundemit" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
                 <span className="sr-only">GitHub</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -86,12 +61,7 @@ class Footer extends Component {
             </li>
 
             <li>
-              <a
-                href="https://dribbble.com/Hundemit"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-              >
+              <a href="https://dribbble.com/Hundemit" rel="noreferrer" target="_blank" className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75">
                 <span className="sr-only">Dribbble</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path

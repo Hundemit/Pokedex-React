@@ -20,16 +20,15 @@ const NavbarMenuButtons: React.FC<NavbarMenuButtonsProps> = (props) => {
     <ul className="flex flex-col gap-2 p-2 md:p-0 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
       <li>
         <Link
-          to={"/app-pokedex"}
+          to={"/home"}
           onClick={handleButtonClick}
           className={
             "block px-3 py-2 " +
-            (location.pathname.startsWith("/app-pokedex")
+            (location.pathname.startsWith("/home")
               ? "text-white dark:text-blue-100 bg-blue-700 dark:bg-slate-700 rounded md:bg-blue-50  md:text-blue-700 "
               : "text-gray-900 hover:bg-gray-100 md:hover:bg-blue-50   md:hover:text-blue-700  md:dark:text-blue-100 dark:text-white dark:hover:bg-slate-700  dark:border-gray-700 rounded")
           }
-          aria-current="page"
-        >
+          aria-current="page">
           Home
         </Link>
       </li>
@@ -42,8 +41,7 @@ const NavbarMenuButtons: React.FC<NavbarMenuButtonsProps> = (props) => {
             (location.pathname.startsWith("/pokedex")
               ? "text-white dark:text-blue-100 bg-blue-700 dark:bg-slate-700 rounded md:bg-blue-50  md:text-blue-700"
               : "text-gray-900 hover:bg-gray-100 md:hover:bg-blue-50   md:hover:text-blue-700  md:dark:text-blue-100 dark:text-white dark:hover:bg-slate-700  dark:border-gray-700 rounded")
-          }
-        >
+          }>
           Pokédex
         </Link>
       </li>
@@ -57,8 +55,7 @@ const NavbarMenuButtons: React.FC<NavbarMenuButtonsProps> = (props) => {
             (location.pathname.startsWith("/aboutme")
               ? "text-white dark:text-blue-100 bg-blue-700 dark:bg-slate-700 rounded md:bg-blue-50  md:text-blue-700"
               : "text-gray-900 hover:bg-gray-100 md:hover:bg-blue-50   md:hover:text-blue-700  md:dark:text-blue-100 dark:text-white dark:hover:bg-slate-700  dark:border-gray-700 rounded")
-          }
-        >
+          }>
           About Me
         </a>
       </li>

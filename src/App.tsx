@@ -16,9 +16,9 @@ class App extends Component {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/app-pokedex" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/pokedex/:site" element={<PokemonCardContainer />} />
-            <Route path="/pokedex/:site/pokemon/:id" element={<PokemonDetails />} />
+            <Route path="/pokemon/:id" element={<PokemonDetails />} />
           </Routes>
           <Footer />
         </Router>

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://hundemit.github.io/pokedex",
   "name": "pokemon",
   "version": "0.1.0",
   "private": true,
@@ -9,8 +10,6 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.50",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
     "flowbite": "^1.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -24,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "eslintConfig": {
     "extends": [
@@ -45,7 +46,10 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
     "autoprefixer": "^10.4.15",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3"
   }
