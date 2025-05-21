@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar-Components/Navbar";
 import PokemonCardContainer from "./Components/Pokemon-Card-Components/Pokemon-Card-Container";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import PokemonDetails from "./Components/Pokemon-Details-Components/PokemonDetails";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";

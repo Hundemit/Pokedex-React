@@ -34,8 +34,8 @@ const Navbar = () => {
       <nav className="bg-white border-gray-200 dark:bg-gray-900 p-4">
         <div className="max-w-screen-xl flex gap-2  items-center justify-between mx-auto mb-4">
           {/* LOGO */}
-          <Link to={"/app-pokedex"} className="flex ihtems-center">
-            <img src="/assets/img/pokeball-icon.png" className=" min-w-[32px] max-w-[32px] mr-3" alt="Pokemon Icon" />
+          <Link to={"/home"} className="flex ihtems-center">
+            <img src="assets/img/pokeball-icon.png" className=" min-w-[32px] max-w-[32px] mr-3" alt="Pokemon Iconnnn" />
           </Link>
 
           {/* MENU BUTTONS */}
